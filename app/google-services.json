@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089952832517",
+    "firebase_url": "https://my-application2020-93bee.firebaseio.com",
+    "project_id": "my-application2020-93bee",
+    "storage_bucket": "my-application2020-93bee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089952832517:android:f01b78b1401f8bb940506c",
+        "android_client_info": {
+          "package_name": "habeb.wardy.myapplication2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089952832517-i1kl621kdnp1cat8a09ofdhmsrnolch9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "habeb.wardy.myapplication2020",
+            "certificate_hash": "8d4e87598d212bdb282d05faa7766dc9c486dbdf"
+          }
+        },
+        {
+          "client_id": "1089952832517-7imt4d4ucotuvp817ldoel9lffso05n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIj_BGaZBXj_s3Aj2NWyl5baCsFM-FSZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089952832517-7imt4d4ucotuvp817ldoel9lffso05n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

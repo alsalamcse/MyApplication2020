@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderMainMeals">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="65dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="60dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/meTX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/meTX"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chTX"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="112dp"
+        android:text="chickens"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/fishTX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chicken"
+        app:layout_constraintTop_toBottomOf="@+id/meTX" />
+
+    <TextView
+        android:id="@+id/fishTX"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="215dp"
+        android:text="fish"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fish"
+        app:layout_constraintTop_toBottomOf="@+id/chTX" />
+
+    <TextView
+        android:id="@+id/meTX"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="111dp"
+        android:text="meet"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/chTX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/meet"
+        app:layout_constraintTop_toBottomOf="@+id/b1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chicken"
+        android:layout_width="77dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="112dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/fish"
+        app:layout_constraintEnd_toStartOf="@+id/chTX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meet"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fish"
+        android:layout_width="103dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="192dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fishTX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chicken"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/meet"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="98dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/chicken"
+        app:layout_constraintEnd_toStartOf="@+id/meTX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

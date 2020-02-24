@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSweet">
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="57dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/iceTX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/koTX"
+        android:layout_width="193dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="62dp"
+        android:text="Konafa"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/chTX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/konafa"
+        app:layout_constraintTop_toBottomOf="@+id/iceTX" />
+
+    <TextView
+        android:id="@+id/chTX"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="299dp"
+        android:text="Choclate"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/choclate"
+        app:layout_constraintTop_toBottomOf="@+id/koTX" />
+
+    <TextView
+        android:id="@+id/iceTX"
+        android:layout_width="191dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="48dp"
+        android:text="Ice cream"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/koTX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iceC"
+        app:layout_constraintTop_toBottomOf="@+id/b3" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/konafa"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="49dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/choclate"
+        app:layout_constraintEnd_toStartOf="@+id/koTX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iceC"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/choclate"
+        android:layout_width="57dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="285dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/chTX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/konafa"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/iceC"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="36dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/konafa"
+        app:layout_constraintEnd_toStartOf="@+id/iceTX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+</androidx.constraintlayout.widget.ConstraintLayout>
