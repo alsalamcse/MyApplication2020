@@ -31,8 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="214dp"
         android:ems="10"
+        android:hint="name"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,8 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:ems="10"
+        android:hint="password"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtEmail" />

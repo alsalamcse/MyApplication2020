@@ -3,7 +3,20 @@ package habeb.wardy.myapplication2020;
 public class MainMeals
 {
 
+    private String meet;
+    private String chickens;
+    private String fish;
 
+    private String owner;
+
+
+    public String getOwner() {
+        return owner;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
 
     public String getMeet() {
         return meet;
@@ -37,9 +50,7 @@ public class MainMeals
                 '}';
     }
 
-    private String meet;
-    private String chickens;
-    private String fish;
+
 
 
 

@@ -23,8 +23,8 @@
         android:layout_marginStart="53dp"
         android:layout_marginBottom="39dp"
         android:ems="10"
+        android:hint="Last Name"
         android:inputType="textPersonName"
-        android:text="Last Name"
         app:layout_constraintBottom_toTopOf="@+id/edtPhone"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -35,8 +35,8 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="235dp"
         android:ems="10"
+        android:hint="Phone"
         android:inputType="textPersonName"
-        android:text="Phone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,8 +47,8 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="47dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textPersonName"
-        android:text="Email"
         app:layout_constraintStart_toStartOf="@+id/edtPassword"
         app:layout_constraintTop_toBottomOf="@+id/edtPhone" />
 
@@ -59,8 +59,8 @@
         android:layout_marginStart="71dp"
         android:layout_marginTop="47dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPersonName"
-        android:text="Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
 
@@ -71,8 +71,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="37dp"
         android:ems="10"
+        android:hint="ReEnter"
         android:inputType="textPersonName"
-        android:text="ReEnter"
         app:layout_constraintStart_toStartOf="@+id/edtPassword"
         app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
 
@@ -83,8 +83,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="61dp"
         android:ems="10"
+        android:hint="First Name"
         android:inputType="textPersonName"
-        android:text="First Name"
         app:layout_constraintStart_toStartOf="@+id/edtLname"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

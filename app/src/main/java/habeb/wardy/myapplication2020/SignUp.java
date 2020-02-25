@@ -73,6 +73,7 @@ public class SignUp extends AppCompatActivity
                 }
                 if (isok)
                 {
+                    createAcount(email,passw1,fname,lname,phone);
 
                 }
             }

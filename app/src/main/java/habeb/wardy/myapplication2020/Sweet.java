@@ -2,7 +2,20 @@ package habeb.wardy.myapplication2020;
 
 public class Sweet
 {
+    private String iceCream;
+    private String konafa;
+    private String choclate;
 
+    private String owner;
+
+
+    public String getOwner() {
+        return owner;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
 
     public String getIceCream() {
         return iceCream;
@@ -36,9 +49,7 @@ public class Sweet
                 '}';
     }
 
-    private String iceCream;
-    private String konafa;
-    private String choclate;
+
 
 
 
