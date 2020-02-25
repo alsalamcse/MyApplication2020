@@ -1,4 +1,4 @@
-package habeb.wardy.myapplication2020;
+package Data;
 
 public class Sweet
 {
