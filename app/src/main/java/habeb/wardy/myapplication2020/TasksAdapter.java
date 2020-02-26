@@ -7,14 +7,14 @@ import android.widget.ArrayAdapter;
 
 import androidx.annotation.NonNull;
 
-public class TasksAdapter extends ArrayAdapter<MyApp>
+public class TasksAdapter extends ArrayAdapter
 {
 
     public TasksAdapter(@NonNull Context context, int resource) {
         super(context, resource);
     }
 
-    public View getView(int position, View converView, ViewGroup parent)
+   //+ public View getView(int position, View converView, ViewGroup parent)
     {
         //View vitem= LayoutInflater.from(getContext().);
        // TextView tvLemon=vitem.findViewById(R.id.lemon);
@@ -27,7 +27,7 @@ public class TasksAdapter extends ArrayAdapter<MyApp>
       //  TextView tvChoclate=vitem.findViewById(R.id.choclate);
        // TextView tvIcecream=vitem.findViewById(R.id.iceC);
 
-        MyApp myApp=getItem(position);
+       // MyApp myApp=getItem(position);
 
 
 
