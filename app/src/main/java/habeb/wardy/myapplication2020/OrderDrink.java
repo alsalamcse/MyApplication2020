@@ -75,32 +75,5 @@ public class OrderDrink extends AppCompatActivity
 
     }
 
-    private void creatDrink(Drink d)
-    {
-        FirebaseDatabase database=FirebaseDatabase.getInstance();
-        DatabaseReference reference=database.getReference();
-        FirebaseAuth auth=FirebaseAuth.getInstance();
-        String uid = auth.getCurrentUser().getUid();
-        d.setOwner(uid);
 
-
-        reference.child("Drink").child(uid).setValue(d).addOnCompleteListener(OrderDrink.this, new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if (task.isSuccessful())
-                {
-                    Toast.makeText(OrderDrink.this, "Add Successful", Toast.LENGTH_SHORT).show();
-                    finish();
-                }
-                else {
-                    Toast.makeText(OrderDrink.this, "Add Failed"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                    task.getException().printStackTrace();
-                }
-            }
-        });
-
-
-
-
-    }
 }

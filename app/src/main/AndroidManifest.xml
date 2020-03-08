@@ -3,15 +3,21 @@
     package="habeb.wardy.myapplication2020">
 
     <application
-        android:name="Data.MyApp"
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="Maniging.AddMealActivity"></activity>
-        <activity android:name="Maniging.CustomerOrdersActivity" />
+        <activity android:name=".Maniging.main.MyUserActivity"></activity>
+        <activity android:name=".AddMainMealActivity" />
+        <activity
+            android:name=".MainMeals"
+            android:label="@string/title_activity_main_meals"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddMealActivity" />
+        <activity android:name=".CustomerOrdersActivity" />
         <activity android:name=".Finish" />
         <activity android:name=".OrderSweet" />
         <activity android:name=".OrderDrink" />

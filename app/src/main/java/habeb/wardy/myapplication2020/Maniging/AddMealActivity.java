@@ -1,4 +1,4 @@
-package Maniging;
+package habeb.wardy.myapplication2020.Maniging;
 
 import androidx.appcompat.app.AppCompatActivity;
 import habeb.wardy.myapplication2020.R;
